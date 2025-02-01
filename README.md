@@ -1,3 +1,6 @@
+https://github.com/harisafaiza/a3-nlp/blob/main/a3-nlp.mov
+
+This is the screen recording of the website application.
 
 
 
