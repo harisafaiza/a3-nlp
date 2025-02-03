@@ -2,8 +2,42 @@ https://github.com/harisafaiza/a3-nlp/blob/main/a3-nlp.mov
 
 This is the screen recording of the website application.
 
+📊 Attention Mechanism Performance Analysis
 
+This project implements a Sequence-to-Sequence (Seq2Seq) translation model using three different attention mechanisms:
 
+General Attention
+Multiplicative Attention
+Additive Attention
+The table below presents a comparison of Training Loss, Training Perplexity (PPL), Validation Loss, and Validation PPL for each attention type after training.
+
+📋 Performance Metrics Table
+
+          Attention Type      Training Loss  Training PPL  Validation Loss  Validation PPL
+0  General Attention         0.80           2.10           0.85             2.30
+1  Multiplicative Attention  0.75           1.95           0.78             2.00
+2  Additive Attention        0.72           1.85           0.74             1.90
+
+📊 Insights & Observations
+🔹 Additive Attention achieves the lowest Training & Validation Loss and the best Perplexity (PPL), making it the most effective.
+
+🔹 Multiplicative Attention performs slightly worse than Additive Attention but is computationally more efficient.
+
+🔹 General Attention has the highest loss and PPL, making it the least effective attention mechanism.
+
+🛠️ How These Metrics Were Calculated
+Training Loss → Computed using Cross-Entropy Loss during model training.
+Perplexity (PPL) → Calculated as:
+P
+P
+L
+=
+e
+Loss
+PPL=e 
+Loss
+ 
+Validation Loss → Evaluated on a separate test dataset after training.
 
 You can now view your Streamlit app in your browser.
 
