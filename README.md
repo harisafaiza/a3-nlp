@@ -13,10 +13,9 @@ The table below presents a comparison of Training Loss, Training Perplexity (PPL
 
 📋 Performance Metrics Table
 
-          Attention Type      Training Loss  Training PPL  Validation Loss  Validation PPL
-0  General Attention         0.80           2.10           0.85             2.30
-1  Multiplicative Attention  0.75           1.95           0.78             2.00
-2  Additive Attention        0.72           1.85           0.74             1.90
+
+<img width="717" alt="table" src="https://github.com/user-attachments/assets/d325ab78-bf82-43e9-a945-f86efbaef55a" />
+
 
 📊 Insights & Observations
 🔹 Additive Attention achieves the lowest Training & Validation Loss and the best Perplexity (PPL), making it the most effective.
